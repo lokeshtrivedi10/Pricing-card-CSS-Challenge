@@ -83,6 +83,11 @@ button {
   box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
+button:hover {
+  cursor: pointer;
+  opacity:0.8;
+  transform: scale(1.05);
+}
 
 p,
 li {
